@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Ionic is Wonderful
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand="block" color="danger" (click)="showLoading()">Click Me For Loading</ion-button>
+  <ion-button expand="block" color="danger" (click)="showToast()">Click Me For Toast</ion-button>
+  <ion-button expand="block" color="danger" (click)="showAlert()">Click Me For Alert</ion-button>
+  <ion-button expand="block" color="danger" href="/office/12345">Go to Office</ion-button>
+  <ion-button expand="block" color="danger" (click)="gotoOffice()">Go to Office</ion-button>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="warning">
+    <ion-title>
+      Ionic is Wonderful
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

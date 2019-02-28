@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Firestore</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let product of products">
+      <ion-label>
+        <h2> {{ product.data().product_name }} </h2>
+        <h3> $ {{ product.data().product_price }} </h3>
+        <p> {{ product.id }} </p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
