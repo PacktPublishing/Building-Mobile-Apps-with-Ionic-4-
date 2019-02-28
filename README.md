@@ -1,4 +1,4 @@
-# Building-Mobile-Apps-with-Ionic-4-
+
 # Building Mobile Apps with Ionic 4 [Video]
 This is the code repository for [Building Mobile Apps with Ionic 4 [Video]](https://www.packtpub.com/virtualization-and-cloud/building-mobile-apps-ionic-4-video?utm_source=github&utm_medium=repository&utm_campaign=9781789807585), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
